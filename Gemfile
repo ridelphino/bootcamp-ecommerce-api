@@ -14,6 +14,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise_token_auth', '~> 1.1.4'
 
+# Cors
+
+gem 'rack-cors', '~> 1.1.1'
+
 # E-mail Customization
 gem 'sass-rails', '~> 6.0'
 gem 'foundation_emails'
