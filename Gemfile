@@ -14,6 +14,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise_token_auth', '~> 1.1.4'
 
+# E-mail Customization
+gem 'sass-rails', '~> 6.0'
+gem 'foundation_emails'
+
 group :development, :test do
     gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
