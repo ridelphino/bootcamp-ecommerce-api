@@ -3,7 +3,7 @@ class Coupon < ApplicationRecord
   validates :status, presence: true
   validates :discount_value, presence: true
   validates_numericality_of :discount_value, greater_than: 0
-  validates :due_date, presence: true
+  validates :due_date, presence: true, future_date: true
 
   enum status: { active: 1, inactive: 2 }
 
