@@ -19,8 +19,13 @@ gem 'devise_token_auth', '~> 1.1.4'
 gem 'rack-cors', '~> 1.1.1'
 
 # E-mail Customization
+
 gem 'sass-rails', '~> 6.0'
 gem 'foundation_emails'
+
+# Rendering
+
+gem 'jbuilder', '~> 2.10.1'
 
 group :development, :test do
     gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
